@@ -1,4 +1,4 @@
-# ksef-java-sample
+# go-ksef-sample
 
 KSeF Go sample
 
