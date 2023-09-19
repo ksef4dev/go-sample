@@ -33,7 +33,7 @@ func main() {
 
 	invoice, err := invoiceService.SendInvoice(content, sessionToken.SessionToken.Token)
 	if err != nil {
-		fmt.Println("Can't read invoice file")
+		fmt.Println("Can't send invoice")
 		panic(err)
 	}
 
